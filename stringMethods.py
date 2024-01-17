@@ -17,4 +17,4 @@ print(course.find('The'))
 print(course.replace('Beginners', "Intermediate"))
 
 print("Python" in course) #true
-print("python" in course) #false
+print("python" in course) #false 
