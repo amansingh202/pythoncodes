@@ -10,5 +10,3 @@ def listMax(arr):
 
     return max
 
-numbers = [12,34,56,1,90,3]
-print(listMax(numbers))
