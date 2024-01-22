@@ -2,7 +2,14 @@
 
 import random
 
-num1 = random.randint(1,6)
-num2 = random.randint(1,6)
+class Dice:
 
-print(f"({num1},{num2})")
+    def roll(self):
+        num1 = random.randint(1,6)
+        num2 = random.randint(1,6)
+
+        return (num1, num2)
+    
+
+dice1 = Dice()
+print(dice1.roll())
