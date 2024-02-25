@@ -14,10 +14,18 @@ class Person:
 
 #creating object of this class
         
+
+        
 p1 =Person("Jack", 42)
+
+#modifying and deleting object parameters
+p1.age = 38
+
+#del p1.age
 
 print(p1.name)
 print(p1.age)
 
 #print(type(p1.age))
 p1.myfunc()
+
